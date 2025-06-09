@@ -37,7 +37,9 @@ Adding a remote S3 storage to dvc:
 26>dvc commit-push the exp outcome that you want to keep
 27>finally git add, commit, push
 
-
+Extra
+>Remove/Delete AWS resources
+>Adding stages to dvc.yaml:" dvc stage add -n data_ingestion -d src/data_ingestion.py -o data/raw python src/data_ingestion.py "
 
 
 
